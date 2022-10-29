@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #6c6c6c;
+    background-color: #f4f4f4;
+}
+a {
+    text-decoration: none;
+}
+p {
+    font-size: 16px;
+}
+/* 头部 */
+.header {
+    display: flex;
+    justify-content: center;
+    top:0;
+    height: 80px;
+    border-bottom:3px solid #eaeaea;
+    box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, .3);
+    background-color: #fff;
+}
+.header ul {
+    display: flex;
+    text-decoration: none;
+    padding: 0 10px;
+
+    color: #050505;
+}
+.nav {
+    margin-right: 50px;
+}
+.nav ul li {
+    margin-left: 40px;
+    font-size: 20px;
+    line-height: 80px;
+    list-style: none;
+}
+.nav ul li:hover {
+    border-top: 2px solid red;
+    color: red;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+.search input {
+    width: 330px;
+    height: 32px;
+    border: 1px solid red;
+    border-right: 0;
+    font-size: 14px;
+    color: #bfbfbf;
+    padding-left: 15px;
+}
+.search button {
+    width: 80px;
+    height: 34px;
+    border: none;
+    margin-left: -1px;
+    background: url(img/search.png);
+    background-repeat: no-repeat;
+}
+.tubiao {
+    margin-right: 80px;
+    height: 100%;
+}
+.touxiang {
+    height: 100%;
+}
+.butto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.butto button {
+    width: 94px;
+    height: 34px;
+    border: none;
+    background-color: #1dc091;
+}
+.butto button:hover {
+    background-color: red;
+}
+/* 大图 */
+.photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:relative;
+    margin: auto;
+    width: 1112px;
+}
+.photo img {
+    width: 100%;
+}
+.tag {
+    display: flex;
+    justify-content: center; 
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+}
+.navi {
+    list-style: none;
+    width: 14px;
+    height: 14px;
+    margin-top: 13px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: white;
+}
+.navi:hover {
+    background-color: gray;
+}
+/* 上半主体 */
+.box_top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+.content {
+    width: 275px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fff;
+    border-left: 2px solid white;
+    border-bottom: 2px solid #eaeaea;
+}
+.middle {
+    display: flex;
+    justify-content: center;
+    border-right: 1px solid #eaeaea;
+    background-color: #fff;
+}
+
+.middle ul {
+    font-size: 10px;
+}
+li:hover {
+    color:red;
+}
+.content .top {
+    display: flex;
+    justify-content: center;
+}
+/* 中间主体 */
+
+.box_medium {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 10px;
+}
+/* 中间 */
+.kecheng {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom:10px ;
+    background-color: #fff;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1112px;
+    margin-top: 20px;
+}
+table,td {
+    text-align: center;
+    border: 2px  solid #1dc091;
+    border-collapse: collapse;
+}
+table {
+    border: transparent;
+}
+td {
+    width: 160px;
+    height: 160px;
+    background-image:none; 
+    background-repeat: no-repeat;
+}
+.t1 {
+    border: transparent;
+    background-image: url(img/num1.png);;
+}
+.t1:hover {
+    background-color: #fff;
+}
+td:hover {
+    background-color: #1dc091;
+}
+/* 下半 */
+.box_bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 10px;
+    width: 1112px;
+    background-color: #fff;
+}
+.contain {
+    display: flex;
+    justify-content: center;
+    margin-left:42px;
+    margin-right: 42px;
+}
+
+.chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 228px;
+}
+.hover:hover {
+   visibility: visible;
+   border: 1px solid black;
+}
+.redbox {
+    width: 176px;
+    height: 186px;
+    background-color: red;
+    text-align: center;
+    margin: 40px;
+}
+.redbox p {
+    padding-top: 69px;
+}
+.chart:hover {
+    background:url(img/rabit.png) no-repeat;
+    background-position: top center;
+}
+/* 页脚 */
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
